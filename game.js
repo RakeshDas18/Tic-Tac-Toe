@@ -43,7 +43,7 @@ boxes.forEach((box)=>{
             box.innerText="O";
             turnX=true;
         }
-        box.disabled=true;
+        box.disabled = true;
 
         checkWinner();
     })
