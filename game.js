@@ -52,7 +52,7 @@ boxes.forEach((box)=>{
 const showWinner = (winner) =>{
     msg.innerText=`Congrats. The winner is ${winner}`
     msgContainer.classList.remove("hide");
-    boxes.disabled=true;
+    boxes.disabled = true;
 
 }
 
