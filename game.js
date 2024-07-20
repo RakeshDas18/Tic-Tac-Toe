@@ -24,7 +24,7 @@ const resetGame=()=>{
 
 const disableBoxes = () =>{
     for(let box of boxes){
-        box.disabled=true;
+        box.disabled = true;
     }
 };
 const enableBoxes = () =>{
