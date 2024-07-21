@@ -4,7 +4,7 @@ let msg=document.querySelector(".msg");
 let msgContainer=document.querySelector(".msgContainer");
 let newGame=document.querySelector(".newGame");
 
-let turnX=true;
+let turnX = true;
 let winPatterns=[
     [0,1,2],
     [3,4,5],
