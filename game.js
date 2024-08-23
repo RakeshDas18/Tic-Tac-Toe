@@ -2,10 +2,10 @@ let boxes=document.querySelectorAll(".box");
 let resetBtn=document.querySelector(".resetBtn");
 let msg=document.querySelector(".msg");
 let msgContainer=document.querySelector(".msgContainer");
-let newGame=document.querySelector(".newGame");
+let newGame=document.querySelector(".newGame")
 
 let turnX = true;
-let winPatterns=[
+let winPatterns = [
     [0,1,2],
     [3,4,5],
     [6,7,8],
@@ -16,8 +16,8 @@ let winPatterns=[
     [2,4,6]
 ];
 
-const resetGame=()=>{
-    turnX=true;
+const resetGame= () => {
+    turnX = true;
     enableBoxes();
     msgContainer.classList.add("hide");
 }
