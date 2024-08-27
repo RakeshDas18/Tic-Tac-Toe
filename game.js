@@ -16,18 +16,18 @@ let winPatterns = [
     [2,4,6]
 ];
 
-const resetGame= () => {
-    turnX = true;
+const resetGame = () => {
+    turnX = true
     enableBoxes();
     msgContainer.classList.add("hide");
 }
 
-const disableBoxes = () =>{
+const disableBoxes = () => {
     for(let box of boxes){
         box.disabled = true;
     }
 };
-const enableBoxes = () =>{
+const enableBoxes = () => {
     for(let box of boxes){
         box.disabled=false;
         box.innerText = "";
