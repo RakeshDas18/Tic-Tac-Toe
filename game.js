@@ -2,7 +2,7 @@ let boxes=document.querySelectorAll(".box");
 let resetBtn=document.querySelector(".resetBtn");
 let msg=document.querySelector(".msg");
 let msgContainer=document.querySelector(".msgContainer");
-let newGame=document.querySelector(".newGame")
+let newGame=document.querySelector(".newGame");
 
 let turnX = true;
 let winPatterns = [
@@ -29,12 +29,12 @@ const disableBoxes = () => {
 };
 const enableBoxes = () => {
     for(let box of boxes){
-        box.disabled=false;
+        box.disabled = false;
         box.innerText = "";
     }
 }
 
-boxes.forEach((box)=>{
+boxes.forEach((box) => {
     box.addEventListener("click", ()=>{
         if(turnX){
             box.innerText="X";
